@@ -32,3 +32,5 @@ dist-ssr
 *.sw?
 config/node_modules/
 config/.env.local
+.vercel
+.env*.local

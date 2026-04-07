@@ -224,19 +224,40 @@ When you run `npm run dev`:
 
 ---
 
+## 🌐 Deployment to Vercel (Optional)
+
+Want to share your app online? Deploy the frontend to Vercel while keeping the backend running locally.
+
+### Quick Setup (2 minutes)
+
+1. **Get ngrok** (exposes local backend publicly)
+   ```bash
+   # Download from https://ngrok.com or via winget
+   winget install ngrok
+   ```
+
+2. **Start your app locally**
+   ```bash
+   npm run dev          # Terminal 1 (backend + frontend)
+   ngrok http 3001     # Terminal 2 (tunnel)
+   ```
+
+3. **Deploy to Vercel**
+   ```bash
+   npx vercel --prod
+   ```
+
+**See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions with screenshots.**
+
+---
+
 ## 🎯 Quick Links
 
-Service
-
-URL
-
-**Frontend**
-
-[http://127.0.0.1:5173](http://127.0.0.1:5173)
-
-**Backend API**
-
-[http://127.0.0.1:3001](http://127.0.0.1:3001)
+| Service | URL |
+|---------|-----|
+| **Local Frontend** | http://127.0.0.1:5173 |
+| **Local Backend API** | http://127.0.0.1:3001 |
+| **Deployment Guide** | [DEPLOYMENT.md](docs/DEPLOYMENT.md) |
 
 ---
 
@@ -251,6 +272,7 @@ Core features working:
 -   ✅ Dark mode
 -   ✅ Database persistence
 -   ✅ Responsive UI
+-   ✅ Vercel deployment ready
 
 ---
 
@@ -260,9 +282,9 @@ What
 
 Details
 
-**Launch**
+**Local Dev**
 
-Two terminals: `node server.cjs` + `npx vite`
+`npm run dev` (backend + frontend in 1 terminal)
 
 **Open**
 
@@ -280,10 +302,16 @@ SQLite, auto-saves
 
 gpt-4.1-nano via Euron API
 
+**Deploy**
+
+Vercel frontend + local backend (ngrok tunnel)
+
 **Time to add features**
 
 15-40 min each (code included)
 
 ---
 
-**Ready to launch? Follow the Getting Started section above!** 🎉
+**Ready to launch locally? Follow the Getting Started section above!**
+
+**Ready to deploy? Check [DEPLOYMENT.md](docs/DEPLOYMENT.md)!** 🚀

@@ -1,6 +1,6 @@
 import type { Task } from '@/types/kanban';
 
-const BASE = '/api';
+const BASE = import.meta.env.VITE_API_URL ?? '/api';
 
 export interface FetchTasksParams {
   sort?: string;
