@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-04-07 08:27:56",
+  "total_errors": 0,
+  "total_warnings": 2,
+  "total_fixes": 2,
+  "errors": [],
+  "warnings": [
+    "[WARN] Found reference to non-existent: IMPLEMENTATION_GUIDE.md in C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\HOUSEKEEPING_REPORT.md",
+    "[WARN] Broken markdown link: docs/CHANGELOG.md in SETUP_GUIDE.md"
+  ],
+  "fixes": [
+    "[FIXED] Generated: PROJECT_STRUCTURE.md",
+    "[FIXED] Updated: CHANGELOG.md"
+  ],
+  "markdown_files": [
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\README.md",
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\AUTOMATION_SUMMARY.md",
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\CHANGELOG.md",
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\FULLY_AUTOMATED.md",
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\HOUSEKEEPING_REPORT.md",
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\PROJECT_STRUCTURE.md",
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\SCRIPTS_README.md",
+    "C:\\00_AI_Architect\\20_Real_World_Projects\\personal_projects\\smart-board\\docs\\SETUP_GUIDE.md"
+  ]
+}
